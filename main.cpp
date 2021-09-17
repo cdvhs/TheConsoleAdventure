@@ -7,7 +7,7 @@ int main()
 {
     system("clear");
     string input;
-    cout << "The Console Adventure" << endl;
+    system("figlet Console Adventure");
     cout << "Press any key and hit Return to start" << endl;
     cin >> input;
     level1();
