@@ -1,4 +1,6 @@
 #include <iostream>
+#include <thread>
+#include <chrono>
 #include "level2.cpp"
 
 using namespace std;
@@ -70,6 +72,9 @@ int level1()
                 system("clear");
                 cout << "Before you tried, it started to rain. You decide to move in the cave." << endl;
                 cout << "You successfully made a campfire!" << endl;
+                cout << "Press any key to continue" << endl;
+                string anykey;
+                cin >> anykey;
                 level2();
             }
             if (input4 == 2){
